@@ -176,6 +176,13 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        
+        /*
+         * custome laravel
+        */
+        Folklore\GraphQL\ServiceProvider::class,
+        
+        Rebing\GraphQL\GraphQLServiceProvider::class,
 
     ],
 
@@ -225,6 +232,10 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        
+        
+        'GraphQLfolklore' => Folklore\GraphQL\Support\Facades\GraphQL::class,
+        'GraphQL' => 'Rebing\GraphQL\Support\Facades\GraphQL',
 
     ],
 
