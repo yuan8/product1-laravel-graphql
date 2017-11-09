@@ -1,0 +1,11 @@
+{
+  "name": "node-mvc-real-time-go-to-rpc",
+  "version": "1.0.1",
+  "description": "project colaboration nodejs websocket for realtime apps. for generate api with graphql ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yuan putra yuanputra9@gmail.com",
+  "license": "ISC"
+}
